@@ -1,0 +1,10 @@
+# Core dependencies
+smolagents
+cloudscraper
+beautifulsoup4
+transformers
+torch
+streamlit
+python-dotenv
+openai
+google-generativeai

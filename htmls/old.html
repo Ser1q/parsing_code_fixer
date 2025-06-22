@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealEstate - Find Your Dream Home</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" alt="RealEstate logo" width="150" height="50">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li><a href="#home" class="navbar-link">Home</a></li>
+                    <li><a href="#about" class="navbar-link">About</a></li>
+                    <li><a href="#properties" class="navbar-link">Properties</a></li>
+                    <li><a href="#contact" class="navbar-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn btn-primary">Add Property</a>
+
+            <button class="nav-toggle-btn" data-nav-toggler>
+                <ion-icon name="menu-outline" class="menu"></ion-icon>
+                <ion-icon name="close-outline" class="close"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <div class="overlay" data-overlay></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="h1 hero-title">Find Your Dream Home</h1>
+                    <p class="hero-text">
+                        Discover the perfect property that matches your lifestyle and aspirations.
+                    </p>
+                </div>
+
+                <div class="hero-search">
+                    <form action="" class="search-form">
+                        <div class="input-wrapper">
+                            <label for="search" class="input-label">Search Property</label>
+                            <input type="search" name="search" id="search" placeholder="Search by location..." class="input-field">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Properties Section -->
+        <section class="property" id="properties">
+            <div class="container">
+                <h2 class="h2 section-title">Featured Properties</h2>
+                <p class="section-text">Explore our handpicked selection of premium properties</p>
+
+                <div class="property-list">
+                    <div class="property-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/property-1.jpg" alt="Modern Apartment" class="w-100">
+                        </figure>
+
+                        <div class="card-content">
+                            <h3 class="h3 card-title">
+                                <a href="#">Modern Apartment in Downtown</a>
+                            </h3>
+
+                            <p class="card-text">
+                                123 Main Street, Downtown Area
+                            </p>
+
+                            <ul class="card-list">
+                                <li class="card-item">
+                                    <ion-icon name="bed-outline"></ion-icon>
+                                    <span>3 Beds</span>
+                                </li>
+
+                                <li class="card-item">
+                                    <ion-icon name="man-outline"></ion-icon>
+                                    <span>2 Baths</span>
+                                </li>
+
+                                <li class="card-item">
+                                    <ion-icon name="square-outline"></ion-icon>
+                                    <span>1200 sqft</span>
+                                </li>
+                            </ul>
+
+                            <div class="card-meta">
+                                <div class="meta-item">
+                                    <span>Price</span>
+                                    <strong>$350,000</strong>
+                                </div>
+
+                                <button class="btn btn-primary">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/property-2.jpg" alt="Luxury Villa" class="w-100">
+                        </figure>
+
+                        <div class="card-content">
+                            <h3 class="h3 card-title">
+                                <a href="#">Luxury Villa with Pool</a>
+                            </h3>
+
+                            <p class="card-text">
+                                456 Park Avenue, Suburban Area
+                            </p>
+
+                            <ul class="card-list">
+                                <li class="card-item">
+                                    <ion-icon name="bed-outline"></ion-icon>
+                                    <span>4 Beds</span>
+                                </li>
+
+                                <li class="card-item">
+                                    <ion-icon name="man-outline"></ion-icon>
+                                    <span>3 Baths</span>
+                                </li>
+
+                                <li class="card-item">
+                                    <ion-icon name="square-outline"></ion-icon>
+                                    <span>2500 sqft</span>
+                                </li>
+                            </ul>
+
+                            <div class="card-meta">
+                                <div class="meta-item">
+                                    <span>Price</span>
+                                    <strong>$750,000</strong>
+                                </div>
+
+                                <button class="btn btn-primary">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/property-3.jpg" alt="Family Home" class="w-100">
+                        </figure>
+
+                        <div class="card-content">
+                            <h3 class="h3 card-title">
+                                <a href="#">Cozy Family Home</a>
+                            </h3>
+
+                            <p class="card-text">
+                                789 Oak Street, Residential Area
+                            </p>
+
+                            <ul class="card-list">
+                                <li class="card-item">
+                                    <ion-icon name="bed-outline"></ion-icon>
+                                    <span>5 Beds</span>
+                                </li>
+
+                                <li class="card-item">
+                                    <ion-icon name="man-outline"></ion-icon>
+                                    <span>3 Baths</span>
+                                </li>
+
+                                <li class="card-item">
+                                    <ion-icon name="square-outline"></ion-icon>
+                                    <span>3000 sqft</span>
+                                </li>
+                            </ul>
+
+                            <div class="card-meta">
+                                <div class="meta-item">
+                                    <span>Price</span>
+                                    <strong>$550,000</strong>
+                                </div>
+
+                                <button class="btn btn-primary">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="h2 section-title">Why Choose Us</h2>
+                <p class="section-text">We provide the best property finding experience</p>
+
+                <div class="about-content">
+                    <div class="about-features">
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <ion-icon name="home-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3 card-title">Wide Range of Properties</h3>
+                            <p class="card-text">
+                                We offer a diverse selection of properties to match every lifestyle and budget.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <ion-icon name="shield-checkmark-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3 card-title">Trusted by Thousands</h3>
+                            <p class="card-text">
+                                Our proven track record and satisfied clients speak to our commitment to excellence.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <ion-icon name="key-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3 card-title">Financing Made Easy</h3>
+                            <p class="card-text">
+                                We work with trusted financial partners to make your dream home affordable.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <ion-icon name="person-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3 card-title">Expert Guidance</h3>
+                            <p class="card-text">
+                                Our experienced agents provide personalized support throughout your journey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="h2 section-title">Get In Touch</h2>
+                <p class="section-text">Contact us for any inquiries about our properties</p>
+
+                <form action="" class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="input-label">Full Name</label>
+                        <input type="text" name="name" id="name" class="input-field" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="input-label">Email Address</label>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="input-label">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" class="input-field" placeholder="Your phone number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="input-label">Message</label>
+                        <input type="text" name="message" id="message" class="input-field" placeholder="Write your message" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" alt="RealEstate logo">
+                    </a>
+                    <p class="footer-text">
+                        We're dedicated to helping you find your perfect home. Our experienced team is here to guide you through every step of your real estate journey.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Company</p>
+                        </li>
+                        <li><a href="#about" class="footer-link">About Us</a></li>
+                        <li><a href="#properties" class="footer-link">Properties</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Press</a></li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Support</p>
+                        </li>
+                        <li><a href="#" class="footer-link">FAQs</a></li>
+                        <li><a href="#" class="footer-link">Support Center</a></li>
+                        <li><a href="#contact" class="footer-link">Contact Us</a></li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Follow Us</p>
+                        </li>
+                        <li>
+                            <div class="social-links">
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2024 RealEstate. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

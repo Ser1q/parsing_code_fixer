@@ -1,0 +1,4 @@
+name,address,price,image,bedrooms,bathrooms,area
+Luxury Condo with City View,"789 Skyline Drive, Downtown Area",450000,./assets/images/property-1.jpg,2,2,
+Modern House with Garden,"456 Garden Street, Suburban Area",2500,./assets/images/property-2.jpg,3,2,
+Beachfront Villa,"123 Coastal Road, Beach Area",850000,./assets/images/property-3.jpg,4,3,
